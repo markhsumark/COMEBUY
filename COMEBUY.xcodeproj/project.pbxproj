@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		1CD843BD272BEF7500AF8327 /* COMEBUYApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD843BC272BEF7500AF8327 /* COMEBUYApp.swift */; };
-		1CD843BF272BEF7500AF8327 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD843BE272BEF7500AF8327 /* ContentView.swift */; };
 		1CD843C1272BEF7900AF8327 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD843C0272BEF7900AF8327 /* Assets.xcassets */; };
 		1CD843C4272BEF7900AF8327 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD843C3272BEF7900AF8327 /* Preview Assets.xcassets */; };
+		1CD843CF272BEFB500AF8327 /* DrinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD843CA272BEFB500AF8327 /* DrinkRow.swift */; };
+		1CD843D0272BEFB600AF8327 /* DrinkInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD843CB272BEFB500AF8327 /* DrinkInfo.swift */; };
+		1CD843D1272BEFB600AF8327 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD843CC272BEFB500AF8327 /* Drink.swift */; };
+		1CD843D2272BEFB600AF8327 /* DrinkBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD843CD272BEFB500AF8327 /* DrinkBlock.swift */; };
+		1CD843D3272BEFB600AF8327 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD843CE272BEFB500AF8327 /* HomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1CD843B9272BEF7500AF8327 /* COMEBUY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COMEBUY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD843BC272BEF7500AF8327 /* COMEBUYApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COMEBUYApp.swift; sourceTree = "<group>"; };
-		1CD843BE272BEF7500AF8327 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1CD843C0272BEF7900AF8327 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CD843C3272BEF7900AF8327 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1CD843CA272BEFB500AF8327 /* DrinkRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrinkRow.swift; path = ../../TIANHAUCHA/COMEBUY/DrinkRow.swift; sourceTree = "<group>"; };
+		1CD843CB272BEFB500AF8327 /* DrinkInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrinkInfo.swift; path = ../../TIANHAUCHA/COMEBUY/DrinkInfo.swift; sourceTree = "<group>"; };
+		1CD843CC272BEFB500AF8327 /* Drink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Drink.swift; path = ../../TIANHAUCHA/COMEBUY/Drink.swift; sourceTree = "<group>"; };
+		1CD843CD272BEFB500AF8327 /* DrinkBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrinkBlock.swift; path = ../../TIANHAUCHA/COMEBUY/DrinkBlock.swift; sourceTree = "<group>"; };
+		1CD843CE272BEFB500AF8327 /* HomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomePage.swift; path = ../../TIANHAUCHA/COMEBUY/HomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,12 @@
 		1CD843BB272BEF7500AF8327 /* COMEBUY */ = {
 			isa = PBXGroup;
 			children = (
+				1CD843CC272BEFB500AF8327 /* Drink.swift */,
+				1CD843CD272BEFB500AF8327 /* DrinkBlock.swift */,
+				1CD843CB272BEFB500AF8327 /* DrinkInfo.swift */,
+				1CD843CA272BEFB500AF8327 /* DrinkRow.swift */,
+				1CD843CE272BEFB500AF8327 /* HomePage.swift */,
 				1CD843BC272BEF7500AF8327 /* COMEBUYApp.swift */,
-				1CD843BE272BEF7500AF8327 /* ContentView.swift */,
 				1CD843C0272BEF7900AF8327 /* Assets.xcassets */,
 				1CD843C2272BEF7900AF8327 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CD843BF272BEF7500AF8327 /* ContentView.swift in Sources */,
+				1CD843D2272BEFB600AF8327 /* DrinkBlock.swift in Sources */,
+				1CD843D3272BEFB600AF8327 /* HomePage.swift in Sources */,
+				1CD843D0272BEFB600AF8327 /* DrinkInfo.swift in Sources */,
 				1CD843BD272BEF7500AF8327 /* COMEBUYApp.swift in Sources */,
+				1CD843D1272BEFB600AF8327 /* Drink.swift in Sources */,
+				1CD843CF272BEFB500AF8327 /* DrinkRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
