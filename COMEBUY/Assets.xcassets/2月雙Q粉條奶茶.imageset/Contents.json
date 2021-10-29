@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : " 2月雙Q粉條奶茶檔期-POS-708x708px_01(2).jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
