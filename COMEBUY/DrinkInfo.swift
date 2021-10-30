@@ -8,15 +8,39 @@
 import SwiftUI
 
 struct DrinkInfo: View {
+    @State var opacity: Double = 0
     var drink: Drink
     var body: some View {
         VStack{
+            Text(drink.name)
+                .font(.title)
+                .padding(7)
+                .overlay(Capsule().stroke())
             Image(drink.name)
                 .resizable()
                 .scaledToFit()
-                .frame(height: 300)
+                .frame(width:500, height: 300)
                 .scaledToFit()
-            Text(drink.info)
+                .padding(20)
+                .clipShape(Capsule())
+                .opacity(opacity)
+                .animation(.easeInOut(duration: 1), value: opacity)
+                .onAppear {
+                    opacity = 1
+                }
+            List{
+                Section{
+                    Text(drink.info)
+                }header:{
+                    Text("介紹")
+                }
+                Section{
+                    Text("$\(drink.price)")
+                }header:{
+                    Text("價格")
+                }
+                
+            }
         }
         
     }

@@ -13,6 +13,9 @@
 		1C06304D272BF71E00441CD5 /* DrinkBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C06304C272BF71E00441CD5 /* DrinkBlock.swift */; };
 		1C06304F272C19F700441CD5 /* DrinkInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C06304E272C19F700441CD5 /* DrinkInfo.swift */; };
 		1C063051272C1CDC00441CD5 /* category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C063050272C1CDC00441CD5 /* category.swift */; };
+		1C063055272C3A2F00441CD5 /* StartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C063054272C3A2F00441CD5 /* StartPage.swift */; };
+		1C063057272CFC5900441CD5 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C063056272CFC5900441CD5 /* Activity.swift */; };
+		1C063059272D029600441CD5 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C063058272D029600441CD5 /* Menu.swift */; };
 		1CD843BD272BEF7500AF8327 /* COMEBUYApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD843BC272BEF7500AF8327 /* COMEBUYApp.swift */; };
 		1CD843C1272BEF7900AF8327 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD843C0272BEF7900AF8327 /* Assets.xcassets */; };
 		1CD843C4272BEF7900AF8327 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD843C3272BEF7900AF8327 /* Preview Assets.xcassets */; };
@@ -25,6 +28,9 @@
 		1C06304C272BF71E00441CD5 /* DrinkBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkBlock.swift; sourceTree = "<group>"; };
 		1C06304E272C19F700441CD5 /* DrinkInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkInfo.swift; sourceTree = "<group>"; };
 		1C063050272C1CDC00441CD5 /* category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = category.swift; sourceTree = "<group>"; };
+		1C063054272C3A2F00441CD5 /* StartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPage.swift; sourceTree = "<group>"; };
+		1C063056272CFC5900441CD5 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		1C063058272D029600441CD5 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		1CD843B9272BEF7500AF8327 /* COMEBUY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COMEBUY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD843BC272BEF7500AF8327 /* COMEBUYApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COMEBUYApp.swift; sourceTree = "<group>"; };
 		1CD843C0272BEF7900AF8327 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,7 +73,10 @@
 				1CD843BC272BEF7500AF8327 /* COMEBUYApp.swift */,
 				1C06304A272BF31E00441CD5 /* HomePage.swift */,
 				1C06304E272C19F700441CD5 /* DrinkInfo.swift */,
+				1C063058272D029600441CD5 /* Menu.swift */,
 				1C06304C272BF71E00441CD5 /* DrinkBlock.swift */,
+				1C063056272CFC5900441CD5 /* Activity.swift */,
+				1C063054272C3A2F00441CD5 /* StartPage.swift */,
 				1CD843C0272BEF7900AF8327 /* Assets.xcassets */,
 				1CD843C2272BEF7900AF8327 /* Preview Content */,
 			);
@@ -156,7 +165,10 @@
 				1C06304D272BF71E00441CD5 /* DrinkBlock.swift in Sources */,
 				1C06304F272C19F700441CD5 /* DrinkInfo.swift in Sources */,
 				1C063049272BF14900441CD5 /* DrinkRow.swift in Sources */,
+				1C063059272D029600441CD5 /* Menu.swift in Sources */,
 				1CD843BD272BEF7500AF8327 /* COMEBUYApp.swift in Sources */,
+				1C063055272C3A2F00441CD5 /* StartPage.swift in Sources */,
+				1C063057272CFC5900441CD5 /* Activity.swift in Sources */,
 				1C063047272BF0AA00441CD5 /* Drink.swift in Sources */,
 				1C06304B272BF31E00441CD5 /* HomePage.swift in Sources */,
 			);
