@@ -20,6 +20,7 @@ struct DrinkRow: View {
                 .resizable()
                 .scaledToFit()
                 .frame(height: 80)
+                .clipShape(Circle())
                 .transition(.slide)
             Spacer()
             VStack(alignment: .trailing) {

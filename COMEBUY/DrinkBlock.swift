@@ -18,6 +18,7 @@ struct DrinkBlock: View {
                 Image(drink.name)
                     .resizable()
                     .frame(width: 90, height: 130)
+                    .clipShape(Capsule())
                     .transition(.slide)
                 Text(drink.name)
                     .transition(.slide)
