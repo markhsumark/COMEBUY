@@ -19,6 +19,8 @@ struct DrinkBlock: View {
                     .resizable()
                     .frame(width: 90, height: 130)
                     .clipShape(Capsule())
+                    .shadow(radius: 5)
+                    .padding(6)
                     .transition(.slide)
                 Text(drink.name)
                     .transition(.slide)
@@ -38,6 +40,5 @@ struct DrinkBlock_Previews: PreviewProvider {
     static var previews: some View {
         DrinkBlock(drink: Drink(name: "icon", price: "00", info: "AAA"))
             .previewLayout(.sizeThatFits)
-            .border(Color.orange, width: 10)
     }
 }

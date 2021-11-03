@@ -6,9 +6,10 @@
 //
 
 import SwiftUI
+import AVKit
 
 struct HomePage: View {
-    let activity = ["9月玩火", "2月雙Q粉條奶茶"]
+//    let activity = ["9月玩火", "2月雙Q粉條奶茶"]
     let milkTeaList = [
         Drink(name:"招牌奶茶", price: "(L)45", info: " 採用世界第一品牌奶精，搭配錫蘭紅茶，並用專屬COMEBUY的黃金比例調製，使用蔗糖與紅蔗糖，品嚐甜潤繞口的奶茶。"),
         Drink(name:"仙草凍奶茶", price: "(L)60", info: "    以滑Q順口的關西仙草凍，加入擁有紅茶甜潤與牛奶香醇的招牌奶茶，利用仙草的甘澀，帶給奶茶另一種甜而不膩的滋味，並讓你享受到大口爽快的仙草躍動。"),
@@ -30,8 +31,9 @@ struct HomePage: View {
         Drink(name:"蜂蜜蘆薈", price: "(L)45", info: "    優質蜂蜜搭配爽口蘆薈果肉，夏日輕盈風味又清爽的飲品。因含有蘆薈，孕婦忌食。"),
         Drink(name:"纖美小紫蘇", price: "(L)60", info: "    玫瑰果露加上新鮮桔汁，搭配愛玉及小紫蘇，風味清爽且呈現豐富飽足的口感。"),
         Drink(name:"芭樂多多", price: "(L)85", info: "使用土芭樂及檸檬原汁，豐富纖維，甜香多C，杯杯含有豐富的乳酸菌，讓腸內有益菌增加，有助於腸道運動。")
-
     ]
+    let propagaton = URL(string: "https://youtu.be/E0OzAmKoRH8")!
+//    let avPlayer = AVPlayer(url: propagaton)
     var body: some View {
         NavigationView{
             TabView{
@@ -47,9 +49,12 @@ struct HomePage: View {
                     })
                     List {
                         TabView(){
-                            Activity(url: "http://www.comebuy2002.com.tw/products/products.php", img: "9月玩火")
-                            Activity(url: "http://www.comebuy2002.com.tw/products/products.php", img: "2月雙Q粉條奶茶")
+                            VideoPlayer(player: AVPlayer(url: propagaton))
+                            Activity(url: "http://comebuy2002.com.tw/news/detail.php?Key=295", img: "11月玫抹拿鐵檔期")
+                            Activity(url: "http://comebuy2002.com.tw/news/detail.php?Key=291", img: "9月玩火")
+                            Activity(url: "http://comebuy2002.com.tw/news/detail.php?Key=284", img: "2月雙Q粉條奶茶")
                             Activity(url: "https://www.comebuy2002.com.tw/news/detail.php?Key=263", img: "本月推薦主打 麥香系列")
+                            Activity(url: "http://comebuy2002.com.tw/news/detail.php?Key=290", img: "碧螺春 & 纖美小紫蘇")
                         }
                         .padding(5)
                         .tabViewStyle(.page)
@@ -88,6 +93,8 @@ struct HomePage: View {
                         Text("待新增...\n...")
                             .foregroundColor(Color.gray)
                     }
+                    .listStyle(.plain)
+//                    .listRowSeparator(.hidden)
                 }
                 .tabItem{
                     Label("Home", systemImage: "music.house.fill")
@@ -142,6 +149,6 @@ struct HomePage: View {
 struct HomePage_Previews: PreviewProvider {
     static var previews: some View {
         HomePage()
-            .preferredColorScheme(.dark)
+            .preferredColorScheme(.light)
     }
 }

@@ -21,6 +21,7 @@ struct DrinkRow: View {
                 .scaledToFit()
                 .frame(height: 80)
                 .clipShape(Circle())
+                .shadow(radius: 10)
                 .transition(.slide)
             Spacer()
             VStack(alignment: .trailing) {
