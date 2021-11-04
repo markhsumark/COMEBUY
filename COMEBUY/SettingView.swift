@@ -9,24 +9,27 @@ import SwiftUI
 
 struct SettingView: View {
     var body: some View {
-        NavigationView{
-            VStack {
-                Button(action: {
-                    UIApplication.shared.setAlternateIconName(nil)
-                }) {
-                    Image("icon")
-                        .resizable()
-                        .scaledToFit()
-                }
-                Button(action: {
-                    UIApplication.shared.setAlternateIconName("icon2")
-                }) {
-                    Image("icon2")
-                        .resizable()
-                        .scaledToFit()
-                }
+        VStack {
+            ScrollView(.vertical){
+                let columns = [GridItem()]
+                LazyVGrid(columns: columns){
+                    Button(action: {
+                        UIApplication.shared.setAlternateIconName(nil)
+                    }) {
+                        Image("icon")
+                            .resizable()
+                            .scaledToFit()
+                    }
+                    Button(action: {
+                        UIApplication.shared.setAlternateIconName("pinkIcon")
+                    }) {
+                        Image("pinkIcon")
+                            .resizable()
+                            .scaledToFit()
+                            .padding(10)
+                    }
+                }.frame(width: 250)
             }
-            .frame(height: 200)
             .navigationTitle("Setting")
         }
     }

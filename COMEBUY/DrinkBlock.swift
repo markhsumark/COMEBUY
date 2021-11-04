@@ -17,7 +17,8 @@ struct DrinkBlock: View {
             if show {
                 Image(drink.name)
                     .resizable()
-                    .frame(width: 90, height: 130)
+                    .scaledToFit()
+                    .frame(width: 75)
                     .clipShape(Capsule())
                     .shadow(radius: 5)
                     .padding(6)
