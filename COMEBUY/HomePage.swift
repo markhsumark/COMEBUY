@@ -27,76 +27,14 @@ struct HomePage: View {
                                Drink(name:"芭樂多多", price: "(L)85", info: "使用土芭樂及檸檬原汁，豐富纖維，甜香多C，杯杯含有豐富的乳酸菌，讓腸內有益菌增加，有助於腸道運動。")]]
     //    let propagaton = URL(string: "COMEBUYTEA形象影片.mp4")
     var body: some View {
-        NavigationView{
+//        NavigationView{
             TabView{
-                VStack {
-                    Link(destination:
-                            URL(string:"http://www.comebuy2002.com.tw/about/about.php")!,label:{
-                        Image("商標")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 400)
-                            .overlay(Text("官方頁面連結")
-                                        .foregroundColor(.gray)
-                                     ,alignment:.bottom)
-                    })
-                    List {
-                        TabView(){
-                            Activity(url: "http://comebuy2002.com.tw/news/detail.php?Key=295", img: "11月玫抹拿鐵檔期")
-                            Activity(url: "http://comebuy2002.com.tw/news/detail.php?Key=291", img: "9月玩火")
-                            Activity(url: "http://comebuy2002.com.tw/news/detail.php?Key=284", img: "2月雙Q粉條奶茶")
-                            Activity(url: "https://www.comebuy2002.com.tw/news/detail.php?Key=263", img: "本月推薦主打 麥香系列")
-                            Activity(url: "http://comebuy2002.com.tw/news/detail.php?Key=290", img: "碧螺春 & 纖美小紫蘇")
-                        }
-                        .padding(5)
-                        .tabViewStyle(.page)
-                        .frame(height: 300)
-                        Section {
-                            ScrollView(.horizontal, showsIndicators: false){
-                                HStack{
-                                    ForEach(allData["milkTea"]!){item in
-                                        NavigationLink{
-                                            DrinkInfo(drink: item)
-                                        }label:{
-                                            DrinkBlock(drink: item)
-                                        }
-                                    }
-                                }
-                            }
-                        }header:{
-                            Text("奶茶").foregroundColor(.orange).font(.title3) + Text("系列")
-                        }
-                        Section {
-                            ScrollView(.horizontal, showsIndicators: false){
-                                HStack {
-                                    ForEach(allData["juice"]!){item in
-                                        NavigationLink{
-                                            DrinkInfo(drink: item)
-                                        }label:{
-                                            DrinkBlock(drink: item)
-                                        }
-                                    }
-                                }
-                            }
-                        }header:{
-                            Text("果汁").foregroundColor(.yellow).font(.title3) + Text("系列")
-                        }
-                        Text("待新增...\n...")
-                            .foregroundColor(Color.gray)
-                            .navigationTitle(Text("Comebuy APP"))
-                            .navigationBarTitleDisplayMode(.inline)
-                        
+                MainPage(allData: allData)
+                    .tabItem{
+                        Label("Home", systemImage: "music.house.fill")
                     }
-                    .listStyle(.plain)
-                    //                    .listRowSeparator(.hidden)
-                }
-                .tabItem{
-                    Label("Home", systemImage: "music.house.fill")
-                }
-                .navigationTitle(Text("Comebuy APP"))
-                .navigationBarTitleDisplayMode(.inline)
-                
-                // List 頁面
+//                .navigationTitle(Text("Comebuy APP"))
+//                .navigationBarTitleDisplayMode(.inline)
                 
                 MenuView(allData: allData)
                     .tabItem{
@@ -107,7 +45,7 @@ struct HomePage: View {
                         Label("Setting", systemImage: "gear")
                     }
             }
-        }
+//        }
     }
 }
     

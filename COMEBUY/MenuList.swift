@@ -24,16 +24,6 @@ struct MenuList: View {
                 }
             }
         }
-        NavigationLink{
-            Menu()
-        }label:{
-            Capsule()
-                .fill(.white)
-                .frame(width: 120, height: 60)
-                .overlay(Label("菜單", systemImage: "newspaper")
-                            .font(.system(size: 30)))
-        }
-        .offset(x: -30)
     }
 }
 

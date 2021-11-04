@@ -22,6 +22,7 @@
 		1CB9FE952733CCB100B1199C /* pinkIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB9FE892733CCB100B1199C /* pinkIcon@3x.png */; };
 		1CB9FEA12733D4DD00B1199C /* S_Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB9FE9F2733D4DD00B1199C /* S_Icon@2x.png */; };
 		1CB9FEA22733D4DD00B1199C /* S_Icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB9FEA02733D4DD00B1199C /* S_Icon@3x.png */; };
+		1CD24E982733E6F600B08527 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD24E972733E6F600B08527 /* MainPage.swift */; };
 		1CD843BD272BEF7500AF8327 /* COMEBUYApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD843BC272BEF7500AF8327 /* COMEBUYApp.swift */; };
 		1CD843C1272BEF7900AF8327 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD843C0272BEF7900AF8327 /* Assets.xcassets */; };
 		1CD843C4272BEF7900AF8327 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD843C3272BEF7900AF8327 /* Preview Assets.xcassets */; };
@@ -43,6 +44,7 @@
 		1CB9FE892733CCB100B1199C /* pinkIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pinkIcon@3x.png"; sourceTree = "<group>"; };
 		1CB9FE9F2733D4DD00B1199C /* S_Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "S_Icon@2x.png"; sourceTree = "<group>"; };
 		1CB9FEA02733D4DD00B1199C /* S_Icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "S_Icon@3x.png"; sourceTree = "<group>"; };
+		1CD24E972733E6F600B08527 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
 		1CD843B9272BEF7500AF8327 /* COMEBUY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COMEBUY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD843BC272BEF7500AF8327 /* COMEBUYApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COMEBUYApp.swift; sourceTree = "<group>"; };
 		1CD843C0272BEF7900AF8327 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				1C063048272BF14900441CD5 /* DrinkRow.swift */,
 				1CD843BC272BEF7500AF8327 /* COMEBUYApp.swift */,
 				1C06304A272BF31E00441CD5 /* HomePage.swift */,
+				1CD24E972733E6F600B08527 /* MainPage.swift */,
 				1C06304E272C19F700441CD5 /* DrinkInfo.swift */,
 				1C063058272D029600441CD5 /* Menu.swift */,
 				1C06304C272BF71E00441CD5 /* DrinkBlock.swift */,
@@ -188,6 +191,7 @@
 				1C06304F272C19F700441CD5 /* DrinkInfo.swift in Sources */,
 				1C063049272BF14900441CD5 /* DrinkRow.swift in Sources */,
 				1C063059272D029600441CD5 /* Menu.swift in Sources */,
+				1CD24E982733E6F600B08527 /* MainPage.swift in Sources */,
 				1CD843BD272BEF7500AF8327 /* COMEBUYApp.swift in Sources */,
 				1C063055272C3A2F00441CD5 /* StartPage.swift in Sources */,
 				1CB9FE7D2733B5F300B1199C /* MenuView.swift in Sources */,
