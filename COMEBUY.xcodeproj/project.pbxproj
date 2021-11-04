@@ -15,6 +15,11 @@
 		1C063055272C3A2F00441CD5 /* StartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C063054272C3A2F00441CD5 /* StartPage.swift */; };
 		1C063057272CFC5900441CD5 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C063056272CFC5900441CD5 /* Activity.swift */; };
 		1C063059272D029600441CD5 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C063058272D029600441CD5 /* Menu.swift */; };
+		1CB9FE732733B1BA00B1199C /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB9FE722733B1BA00B1199C /* SettingView.swift */; };
+		1CB9FE7A2733B42900B1199C /* icon2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB9FE782733B42900B1199C /* icon2@2x.png */; };
+		1CB9FE7B2733B42900B1199C /* icon2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CB9FE792733B42900B1199C /* icon2@3x.png */; };
+		1CB9FE7D2733B5F300B1199C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB9FE7C2733B5F300B1199C /* MenuView.swift */; };
+		1CB9FE7F2733B7C300B1199C /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB9FE7E2733B7C300B1199C /* MenuList.swift */; };
 		1CD843BD272BEF7500AF8327 /* COMEBUYApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD843BC272BEF7500AF8327 /* COMEBUYApp.swift */; };
 		1CD843C1272BEF7900AF8327 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD843C0272BEF7900AF8327 /* Assets.xcassets */; };
 		1CD843C4272BEF7900AF8327 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD843C3272BEF7900AF8327 /* Preview Assets.xcassets */; };
@@ -29,6 +34,12 @@
 		1C063054272C3A2F00441CD5 /* StartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPage.swift; sourceTree = "<group>"; };
 		1C063056272CFC5900441CD5 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		1C063058272D029600441CD5 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		1CB9FE712733B0B600B1199C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1CB9FE722733B1BA00B1199C /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		1CB9FE782733B42900B1199C /* icon2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon2@2x.png"; sourceTree = "<group>"; };
+		1CB9FE792733B42900B1199C /* icon2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon2@3x.png"; sourceTree = "<group>"; };
+		1CB9FE7C2733B5F300B1199C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		1CB9FE7E2733B7C300B1199C /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
 		1CD843B9272BEF7500AF8327 /* COMEBUY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COMEBUY.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD843BC272BEF7500AF8327 /* COMEBUYApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COMEBUYApp.swift; sourceTree = "<group>"; };
 		1CD843C0272BEF7900AF8327 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -65,6 +76,9 @@
 		1CD843BB272BEF7500AF8327 /* COMEBUY */ = {
 			isa = PBXGroup;
 			children = (
+				1CB9FE712733B0B600B1199C /* Info.plist */,
+				1CB9FE782733B42900B1199C /* icon2@2x.png */,
+				1CB9FE792733B42900B1199C /* icon2@3x.png */,
 				1C063046272BF0AA00441CD5 /* Drink.swift */,
 				1C063048272BF14900441CD5 /* DrinkRow.swift */,
 				1CD843BC272BEF7500AF8327 /* COMEBUYApp.swift */,
@@ -73,7 +87,10 @@
 				1C063058272D029600441CD5 /* Menu.swift */,
 				1C06304C272BF71E00441CD5 /* DrinkBlock.swift */,
 				1C063056272CFC5900441CD5 /* Activity.swift */,
+				1CB9FE722733B1BA00B1199C /* SettingView.swift */,
 				1C063054272C3A2F00441CD5 /* StartPage.swift */,
+				1CB9FE7C2733B5F300B1199C /* MenuView.swift */,
+				1CB9FE7E2733B7C300B1199C /* MenuList.swift */,
 				1CD843C0272BEF7900AF8327 /* Assets.xcassets */,
 				1CD843C2272BEF7900AF8327 /* Preview Content */,
 			);
@@ -148,6 +165,8 @@
 			files = (
 				1CD843C4272BEF7900AF8327 /* Preview Assets.xcassets in Resources */,
 				1CD843C1272BEF7900AF8327 /* Assets.xcassets in Resources */,
+				1CB9FE7A2733B42900B1199C /* icon2@2x.png in Resources */,
+				1CB9FE7B2733B42900B1199C /* icon2@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,13 +178,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C06304D272BF71E00441CD5 /* DrinkBlock.swift in Sources */,
+				1CB9FE732733B1BA00B1199C /* SettingView.swift in Sources */,
 				1C06304F272C19F700441CD5 /* DrinkInfo.swift in Sources */,
 				1C063049272BF14900441CD5 /* DrinkRow.swift in Sources */,
 				1C063059272D029600441CD5 /* Menu.swift in Sources */,
 				1CD843BD272BEF7500AF8327 /* COMEBUYApp.swift in Sources */,
 				1C063055272C3A2F00441CD5 /* StartPage.swift in Sources */,
+				1CB9FE7D2733B5F300B1199C /* MenuView.swift in Sources */,
 				1C063057272CFC5900441CD5 /* Activity.swift in Sources */,
 				1C063047272BF0AA00441CD5 /* Drink.swift in Sources */,
+				1CB9FE7F2733B7C300B1199C /* MenuList.swift in Sources */,
 				1C06304B272BF31E00441CD5 /* HomePage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +322,7 @@
 				DEVELOPMENT_TEAM = 55B2ZWU734;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = COMEBUY/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -330,6 +353,7 @@
 				DEVELOPMENT_TEAM = 55B2ZWU734;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = COMEBUY/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
