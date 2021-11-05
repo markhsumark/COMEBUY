@@ -15,6 +15,7 @@
 		1C063055272C3A2F00441CD5 /* StartPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C063054272C3A2F00441CD5 /* StartPage.swift */; };
 		1C063057272CFC5900441CD5 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C063056272CFC5900441CD5 /* Activity.swift */; };
 		1C063059272D029600441CD5 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C063058272D029600441CD5 /* Menu.swift */; };
+		1C21AC9D2735197600B4D904 /* SwitchIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C21AC9C2735197600B4D904 /* SwitchIcon.swift */; };
 		1CB9FE732733B1BA00B1199C /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB9FE722733B1BA00B1199C /* SettingView.swift */; };
 		1CB9FE7D2733B5F300B1199C /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB9FE7C2733B5F300B1199C /* MenuView.swift */; };
 		1CB9FE7F2733B7C300B1199C /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB9FE7E2733B7C300B1199C /* MenuList.swift */; };
@@ -37,6 +38,7 @@
 		1C063054272C3A2F00441CD5 /* StartPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPage.swift; sourceTree = "<group>"; };
 		1C063056272CFC5900441CD5 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		1C063058272D029600441CD5 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		1C21AC9C2735197600B4D904 /* SwitchIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchIcon.swift; sourceTree = "<group>"; };
 		1CB9FE722733B1BA00B1199C /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		1CB9FE7C2733B5F300B1199C /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		1CB9FE7E2733B7C300B1199C /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				1C06304C272BF71E00441CD5 /* DrinkBlock.swift */,
 				1C063056272CFC5900441CD5 /* Activity.swift */,
 				1CB9FE722733B1BA00B1199C /* SettingView.swift */,
+				1C21AC9C2735197600B4D904 /* SwitchIcon.swift */,
 				1C063054272C3A2F00441CD5 /* StartPage.swift */,
 				1CB9FE7C2733B5F300B1199C /* MenuView.swift */,
 				1CB9FE7E2733B7C300B1199C /* MenuList.swift */,
@@ -190,6 +193,7 @@
 				1CB9FE732733B1BA00B1199C /* SettingView.swift in Sources */,
 				1C06304F272C19F700441CD5 /* DrinkInfo.swift in Sources */,
 				1C063049272BF14900441CD5 /* DrinkRow.swift in Sources */,
+				1C21AC9D2735197600B4D904 /* SwitchIcon.swift in Sources */,
 				1C063059272D029600441CD5 /* Menu.swift in Sources */,
 				1CD24E982733E6F600B08527 /* MainPage.swift in Sources */,
 				1CD843BD272BEF7500AF8327 /* COMEBUYApp.swift in Sources */,

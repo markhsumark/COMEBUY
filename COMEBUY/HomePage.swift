@@ -27,31 +27,32 @@ struct HomePage: View {
                                Drink(name:"芭樂多多", price: "(L)85", info: "使用土芭樂及檸檬原汁，豐富纖維，甜香多C，杯杯含有豐富的乳酸菌，讓腸內有益菌增加，有助於腸道運動。")]]
     //    let propagaton = URL(string: "COMEBUYTEA形象影片.mp4")
     var body: some View {
-//        NavigationView{
-            TabView{
-                MainPage(allData: allData)
-                    .tabItem{
-                        Label("Home", systemImage: "music.house.fill")
-                    }
-//                .navigationTitle(Text("Comebuy APP"))
-//                .navigationBarTitleDisplayMode(.inline)
-                
+        TabView{
+            MainPage(allData: allData)
+            //                .navigationTitle(Text("Comebuy APP"))
+            //                .navigationBarTitleDisplayMode(.inline)
+                .tabItem{
+                    Label("Home", systemImage: "music.house.fill")
+                }
+            NavigationView{
                 MenuView(allData: allData)
-                    .tabItem{
-                        Label("Menu", systemImage: "books.vertical.fill")
-                    }
-                SettingView()
-                    .tabItem {
-                        Label("Setting", systemImage: "gear")
-                    }
             }
-//        }
-    }
-}
-    
-    struct HomePage_Previews: PreviewProvider {
-        static var previews: some View {
-            HomePage()
-                .preferredColorScheme(.light)
+            .tabItem{
+                Label("Menu", systemImage: "books.vertical.fill")
+            }
+            NavigationView{
+                SettingView()
+            }
+            .tabItem {
+                Label("Setting", systemImage: "gear")
+            }
         }
     }
+}
+
+struct HomePage_Previews: PreviewProvider {
+    static var previews: some View {
+        HomePage()
+            .preferredColorScheme(.light)
+    }
+}

@@ -33,9 +33,4 @@ struct Activity: View {
 }
 
 
-struct Activity_Previews: PreviewProvider {
-    static var previews: some View {
-        Activity(url: "x", img: "icon")
-            .previewLayout(.sizeThatFits)
-    }
-}
+
