@@ -8,7 +8,8 @@
 import Foundation
 import SwiftUI
 
-struct DrinkBlock: View {
+
+struct DrinkBlock: View {       //直條展示飲品概要的view
     var drink: Drink
     @State private var show = false
     var body: some View {
@@ -25,8 +26,10 @@ struct DrinkBlock: View {
                     .transition(.slide)
                 Text(drink.name)
                     .transition(.slide)
+                    .foregroundColor(.orange)
                 Text("$\(drink.price)")
                     .transition(.slide)
+                    .foregroundColor(.blue)
             }
         }
         .animation(.easeInOut(duration: 1.5), value: show)

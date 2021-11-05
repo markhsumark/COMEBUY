@@ -32,19 +32,11 @@ struct MainPage: View {
                 .padding(5)
                 .tabViewStyle(.page)
                 .frame(height: 400)
-                .animation(.easeInOut(duration: 1.5), value: show)
-                .onAppear{
-                    show = true
-                }
                 Section {
                     ScrollView(.horizontal, showsIndicators: false){
                         HStack{
                             ForEach(allData["milkTea"]!){item in
-                                Button{
-                                    DrinkInfo(drink: item)
-                                }label:{
-                                    DrinkBlock(drink: item)
-                                }
+                                DrinkBlock(drink: item)
                             }
                         }
                     }
@@ -55,11 +47,7 @@ struct MainPage: View {
                     ScrollView(.horizontal, showsIndicators: false){
                         HStack {
                             ForEach(allData["juice"]!){item in
-                                Button{
-                                    DrinkInfo(drink: item)
-                                }label:{
-                                    DrinkBlock(drink: item)
-                                }
+                                DrinkBlock(drink: item)
                             }
                         }
                     }
@@ -73,8 +61,8 @@ struct MainPage: View {
             .listStyle(.plain)
             //                    .listRowSeparator(.hidden)
         }
-//        .navigationTitle(Text("Comebuy APP"))
-//        .navigationBarTitleDisplayMode(.inline)
+        //        .navigationTitle(Text("Comebuy APP"))
+        //        .navigationBarTitleDisplayMode(.inline)
     }
 }
 

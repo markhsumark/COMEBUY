@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct Activity: View {
+struct Activity: View {     //展示活動圖像 &link
     var url: String
     var img: String
     @State private var show = false

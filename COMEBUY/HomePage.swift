@@ -29,8 +29,6 @@ struct HomePage: View {
     var body: some View {
         TabView{
             MainPage(allData: allData)
-            //                .navigationTitle(Text("Comebuy APP"))
-            //                .navigationBarTitleDisplayMode(.inline)
                 .tabItem{
                     Label("Home", systemImage: "music.house.fill")
                 }
